@@ -67,21 +67,26 @@
     display:block;
     margin-right:0px;
     margin-left:0px;
+    
 }
 
+.video-info-grid{
+    display:grid;
+    grid-template-columns: 60px 1fr;
+    
+}
 
 .channelimage-division1,
 .channelimage-division2{
-    height:48px;
-    width:50px;
-    display:inline-block;
-    object-fit: fill;
     padding-left: 10px;
     padding-right:10px;
     vertical-align: top;
+    background-color: gray;
+    
 }
 .video1-division,
 .video2-division{
-    display:inline-block;
+    background-color: gray;
     vertical-align: top;
+    padding-left: auto;
 }
