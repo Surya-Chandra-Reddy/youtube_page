@@ -39,7 +39,7 @@
 .video-title{
     margin-bottom: 10px;
     display:block;
-    
+    font-weight: bolder;
 }
 
 .channel-name,
@@ -48,6 +48,7 @@
     margin-bottom:4px;
     opacity: 0.6;
     display:block;
+    font-size:16px;
 }
 
 
@@ -76,7 +77,7 @@
     display:inline-block;
     object-fit: fill;
     padding-left: 10px;
-    padding-right:15px;
+    padding-right:10px;
     vertical-align: top;
 }
 .video1-division,
