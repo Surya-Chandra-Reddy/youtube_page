@@ -1,3 +1,8 @@
+body{
+    margin: 0%;
+    display: inline-block;
+}
+
 .search{
     border-radius: 5px;
     border-style: solid;
@@ -11,8 +16,6 @@
     width:400px;
     height:auto;
     display:inline-block;
-    vertical-align: top;
-    margin-left:10px;
 }
 
 .video-2{
@@ -37,17 +40,16 @@
 }
 
 .video-title{
-    margin-bottom: 10px;
-    display:block;
+    margin-bottom: 0px;
     font-weight: bolder;
 }
 
 .channel-name,
 .video-stats{
     margin-top: 4px;
-    margin-bottom:4px;
+    margin-bottom:2px;
     opacity: 0.6;
-    display:block;
+    display:inline-block;
     font-size:16px;
 }
 
@@ -64,29 +66,56 @@
     border-radius: 100px;
     margin-top:10px;
     width:50px;
-    display:block;
+    height:auto;
+    display:inline-block;
     margin-right:0px;
     margin-left:0px;
     
 }
 
-.video-info-grid{
+.video1-info-grid{
     display:grid;
-    grid-template-columns: 60px 1fr;
-    
+    grid-template-columns: 70px 330px;
+    height:120px;
+    width:400px;
+    background-color: gray;
+}
+
+.video2-info-grid,
+.video3-info-grid{
+    display:grid;
+    grid-template-columns: 70px 330px;
+    height:120px;
+    width:400px;
+    background-color: gray;
 }
 
 .channelimage-division1,
-.channelimage-division2{
+.channelimage-division2,
+.channelimage-division3{
     padding-left: 10px;
     padding-right:10px;
-    vertical-align: top;
-    background-color: gray;
-    
+    vertical-align: top;  
+    height:50px;
+    width:50px;
+    display:inline-block;
 }
 .video1-division,
-.video2-division{
-    background-color: gray;
+.video2-division,
+.video3-division{
     vertical-align: top;
-    padding-left: auto;
+    width:300px;
+    height:100px;
+    margin-top:0;
+    display:inline-block;
+}
+
+.video-3{
+ 
+    background-color: gray;
+}
+
+.thumbnail-3{
+    width:400px;
+    height:auto;
 }
