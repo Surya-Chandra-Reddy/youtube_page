@@ -1,12 +1,4 @@
-.search{
-    border-radius: 5px;
-    border-style: solid;
-    border-color:black;
-    border-width:1px;
-    height:20px;
-    display:block;
-    max-width: 500px;
-}
+
 
 .header{
     display:flex;
@@ -16,18 +8,106 @@
 }
 
 .leftsection{
-    background-color: lightblue;
-    width:150px;
+    display:flex;
+    align-items: center;
+}
+
+.hamburger-menu{
+    height:25px;
+    margin-left:24px;
+    margin-right:24px;
+}
+
+.youtube-logo{
+    height:22px;
 }
 
 .middlesection{
-    background-color: lightpink;
+    display: flex;
+    align-items: center;
     flex: 1;
     margin-left: 70px;
-    margin-right: 35px;
+    margin-right: 20px;
+    width:0;
 }
 
+.search-bar{
+    border-style: solid;
+    border-color:rgb(146, 145, 145);
+    border-width:1px;
+    height:20px;
+    display:inline-block;
+    max-width: 500px ;
+    flex:1;
+    height:36px;
+    font-size:16px;
+    padding-left: 10px;
+    border-radius:2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar::placeholder{
+    padding-left:10px;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-icon{
+    height:40px;
+    width:66px;
+    background-color: rgb(255, 246, 246);
+    border-color: rgb(146, 145, 145);
+    border-style:solid;
+    border-width:1px;
+    margin-left: -1px;
+}
+
+.search{
+    margin-top: 4px;
+    height:28px;
+    width:100%;
+}
+
+.voice-search-icon{
+    height:40px;
+    width:50px;
+    margin-left:10px;
+    border-radius: 500px;
+    border-style: solid;
+    border-color:none;
+    border-width:0;
+    background-color: white;
+}
+
+.voice{
+    height:28px;
+    margin-top:4px;
+}
+
+
 .rightsection{
-    background-color: lightblue;
-    width:200px;
+    width:250px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right:25px;
+    flex-shrink: 0;
+}
+
+.upload{
+    height:38px;
+}
+
+.youtube-apps{
+    height:38px;
+}
+
+.notifications{
+    height:38px;
+}
+
+.account{
+    height:38px;
+    border-radius:100px
 }
