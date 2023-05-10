@@ -1,10 +1,19 @@
 
-
 .header{
     display:flex;
     flex-direction: row;
-    height:55px;
+    height:60px;
     justify-content: space-between;
+    margin-bottom: 20px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: white;
+
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(209, 201, 201);
 }
 
 .leftsection{
@@ -19,7 +28,7 @@
 }
 
 .youtube-logo{
-    height:22px;
+    height:25px;
 }
 
 .middlesection{
