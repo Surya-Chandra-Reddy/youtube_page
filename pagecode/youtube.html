@@ -7,9 +7,9 @@
     <title>Youtube</title>
     <link rel="stylesheet" href="/pagestyles/youtube.css">
     <link rel="stylesheet" href="/pagestyles/header.css">
+    <link rel="stylesheet" href="/pagestyles/sidebar.css">
 </head>
-<body style="
-margin: 0;">
+<body>
     <div class="header">
         <div class="leftsection">
             <img class="hamburger-menu" src="/images/hamburger-menu.svg">
@@ -19,24 +19,74 @@ margin: 0;">
             <input class="search-bar" type="text" placeholder="Search">
             <button class="search-icon">
                 <img class="search" src="/images/search.svg">
+                <div class="tooltip">
+                    Search
+                </div>
             </button>
             <button class="voice-search-icon">
                 <img class="voice" src="/images/voice-search-icon.svg">
+                <div class="tooltip">
+                    Search With Voice
+                </div>
             </button>
         </div>
         <div class="rightsection">
-            <img class="upload" src="/images/upload.svg">
-            <img class="youtube-apps" src="/images/youtube-apps.svg">
-            <img class="notifications" src="/images/notifications.svg">
+            <div class="upload-icon-container">
+                <img class="upload" src="/images/upload.svg">
+                <div class="tooltip">
+                    Upload 
+                </div>
+            </div>
+            <div class="youtube-apps-container">
+                <img class="youtube-apps" src="/images/youtube-apps.svg">
+                <div class="tooltip">
+                    Youtube Apps
+                </div>
+            </div>
+            <div class="notifications-container">
+                <img class="notifications" src="/images/notifications.svg">
+                <div class="notifications-count">
+                    14
+                </div>
+            </div>
             <img class="account" src="/images/channel-6.jpeg">
         </div>
     </div>
     
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="/images/home.svg">
+            Home
+        </div>
+        <div class="sidebar-link">
+            <img src="/images/explore.svg">
+            Explore
+        </div>
+        <div class="sidebar-link">
+            <img src="/images/subscriptions.svg">
+            Subscriptions
+        </div>
+        <div class="sidebar-link">
+            <img src="/images/originals.svg">
+            Originals
+        </div>
+        <div class="sidebar-link">
+            <img src="/images/youtube-music.svg">
+            YoutubeMusic
+        </div>
+        <div class="sidebar-link">
+            <img src="/images/library.svg">
+            Library
+        </div>
+    </div>
 
     <div class="video-grid">
         <div class="video-preview">
             <div class="imagedivision">
                 <img class="thumbnail" src="/images/thumbnail-1.webp">
+                <div class="video-timer">
+                    14:20
+                </div>
             </div>
             <div class="video-info-grid">
                 <div class="channelimage-division">
@@ -59,6 +109,9 @@ margin: 0;">
         <div class="video-preview">
             <div class="imagedivision">        
                 <img class="thumbnail" src="/images/thumbnail-2.webp">
+                <div class="video-timer">
+                    08:22
+                </div>
             </div >
             <div class="video-info-grid">
                 <div class="channelimage-division">
@@ -81,6 +134,9 @@ margin: 0;">
         <div class="video-preview">
             <div class="imagedivision">
                 <img class="thumbnail" src="/images/thumbnail-3.webp">
+                <div class="video-timer">
+                    09:13
+                </div>
             </div>
             <div class="video-info-grid">
                 <div class="channelimage-division">
@@ -103,6 +159,9 @@ margin: 0;">
         <div class="video-preview">
             <div class="imagedivision">        
                 <img class="thumbnail" src="/images/thumbnail-4.webp">
+                <div class="video-timer">
+                    22:09
+                </div>
             </div >
             <div class="video-info-grid">
                 <div class="channelimage-division">
@@ -125,6 +184,9 @@ margin: 0;">
         <div class="video-preview">
             <div class="imagedivision">
                 <img class="thumbnail" src="/images/thumbnail-5.webp">
+                <div class="video-timer">
+                    11:17
+                </div>
             </div>
             <div class="video-info-grid">
                 <div class="channelimage-division">
@@ -147,6 +209,9 @@ margin: 0;">
         <div class="video-preview">
             <div class="imagedivision">        
                 <img class="thumbnail" src="/images/thumbnail-6.webp">
+                <div class="video-timer">
+                    19:59
+                </div>
             </div >
             <div class="video-info-grid">
                 <div class="channelimage-division">
